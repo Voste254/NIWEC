@@ -1,7 +1,13 @@
+import HeroSection from "./components/pages/Herosection";
+import Navbar from "./components/pages/Navbar";
+import Services from "./components/pages/Services";
 
 export default function App(){
-  return(
-<h1 className="text-4xl font-bold text-red">Hello Tailwind + Vite!</h1>
-
+return(
+  <>
+    <Navbar/>
+<HeroSection/>
+<Services/>
+  </>
 
   )}
