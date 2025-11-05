@@ -16,7 +16,7 @@ const HeroSection: React.FC = () => {
         <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight">
           Transform Your Health <br className="hidden md:block" />
           with{" "}
-          <span className="bg-gradient-to-r from-orange-500 to-purple-600 bg-clip-text text-transparent">
+          <span className="bg-purple-600 bg-clip-text text-transparent">
             Nature's Wisdom
           </span>
         </h1>
