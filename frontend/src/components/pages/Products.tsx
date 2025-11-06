@@ -29,14 +29,14 @@ const products = [
     title: "Herbal soap",
     desc: "Herbal soap made from 100% natural extracts to fight germs and give you a smooth, glowing and flawless skin.",
     price: "Ksh 300",
-    img: "https://images.unsplash.com/photo-1615484477542-4e82dd52d4a7?w=800",
+    img: "https://i.ibb.co/NdvcnCb9/soap.jpg",
     tag: "HERBAL",
   },
   {
     title: "Vegan cake",
     desc: "Packed with vitamins, essential vitamins and minerals, this yummy cake fills your stomach while buiding your immunity.",
     price: "Ksh 600",
-    img: "https://images.unsplash.com/photo-1600172454133-0a56d8a9e771?w=800",
+    img: "https://i.ibb.co/sJFFCNMq/muffins2.jpg",
     tag: "FOOD",
   },
   {
