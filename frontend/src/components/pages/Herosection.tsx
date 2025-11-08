@@ -3,9 +3,9 @@ import { Leaf, ShoppingBag, Calendar, Check } from "lucide-react";
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="bg-green-200 min-h-[90vh] pt-32 flex flex-col lg:flex-row items-center justify-between px-6 md:px-12 lg:px-20 py-12">
+    <section className="bg-green-200 min-h-[90vh] pt-32 flex flex-col-reverse lg:flex-row items-center justify-between px-6 md:px-12 lg:px-20 py-12">
       {/* LEFT SIDE */}
-      <div className="flex-1 space-y-6 text-center lg:text-left">
+      <div className="flex-1 space-y-6 text-center lg:text-left mt-12 lg:mt-0">
         {/* Tag */}
         <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500 via-green-500 to-purple-500 text-white text-sm font-semibold px-4 py-2 rounded-full">
           <Leaf className="w-4 h-4" />
@@ -66,8 +66,8 @@ const HeroSection: React.FC = () => {
         </div>
       </div>
 
-      {/* RIGHT SIDE */}
-      <div className="flex-1 mt-12 lg:mt-0 w-full flex justify-center">
+      {/* RIGHT SIDE (Image first on mobile) */}
+      <div className="flex-1 w-full flex justify-center lg:justify-end">
         <div className="relative max-w-md w-full rounded-3xl overflow-hidden shadow-lg">
           <img
             src="https://i.ibb.co/BHzZR7wQ/wellness.jpg"
