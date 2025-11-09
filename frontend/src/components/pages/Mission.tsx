@@ -9,13 +9,13 @@ export default function MissionSection() {
         {/* Left side images */}
         <div className="grid grid-cols-2 gap-6 relative">
           <img
-            src="https://images.unsplash.com/photo-1583241803248-5cfb4c19cda5?auto=format&fit=crop&w=800&q=80"
-            alt="Zen stones on sand"
+            src="https://i.ibb.co/5gK4pWxz/herbaltea.jpg"
+            alt="herbal tea"
             className="rounded-2xl w-full h-48 md:h-56 lg:h-64 object-cover"
           />
           <img
-            src="https://images.unsplash.com/photo-1600185365483-26d7b46a4a02?auto=format&fit=crop&w=800&q=80"
-            alt="Cosmetic bottles"
+            src="https://i.ibb.co/zT2RJgkF/honey.jpg"
+            alt="honey"
             className="rounded-2xl w-full h-48 md:h-56 lg:h-64 object-cover"
           />
           <img
@@ -74,7 +74,7 @@ export default function MissionSection() {
             </li>
 
             <li className="flex items-start gap-3 justify-center lg:justify-start">
-              <div className="p-2 bg-gradient-to-r from-orange-400 to-pink-500 rounded-lg">
+              <div className="p-2 bg-gradient-to-r from-cyan-500 to-green-400 rounded-lg">
                 <ClipboardCheck className="text-white w-5 h-5" />
               </div>
               <div>
@@ -86,7 +86,7 @@ export default function MissionSection() {
             </li>
 
             <li className="flex items-start gap-3 justify-center lg:justify-start">
-              <div className="p-2 bg-gradient-to-r from-pink-500 to-purple-600 rounded-lg">
+              <div className="p-2 bg-gradient-to-r from-cyan-500 to-green-400 rounded-lg">
                 <FlaskConical className="text-white w-5 h-5" />
               </div>
               <div>

@@ -10,11 +10,11 @@ function Landing(){
 return(
   <>
     <Navbar/>
-<HeroSection/>
-<Services/>
-<FeaturedProducts/>
-<Journey/>
-<MissionSection/>
+    <HeroSection/>
+    <Services/>
+    <FeaturedProducts/>
+    <Journey/>
+    <MissionSection/>
   </>
 
   )}
