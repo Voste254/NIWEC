@@ -16,21 +16,21 @@ export default function MissionSection() {
           <img
             src="https://i.ibb.co/zT2RJgkF/honey.jpg"
             alt="honey"
-            className="rounded-2xl w-full h-48 md:h-56 lg:h-64 object-cover"
+            className="rounded-2xl w-full h-48 md:h-56 lg:h-64 object-cover "
           />
           <img
-            src="https://images.unsplash.com/photo-1614032686009-d9e9f3d02b45?auto=format&fit=crop&w=800&q=80"
-            alt="Essential oils"
-            className="rounded-2xl w-full h-48 md:h-56 lg:h-64 object-cover col-span-1"
+            src="https://i.ibb.co/8Vn84Wn/mosala.jpg"
+            alt="masala"
+            className="rounded-2xl w-full h-48 md:h-56 lg:h-64 object-cover col-span-1 "
           />
           <img
-            src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=800&q=80"
+            src="https://i.ibb.co/4wv8LQ4w/life.jpg"
             alt="Wellness nature"
-            className="rounded-2xl w-full h-48 md:h-56 lg:h-64 object-cover col-span-1"
+            className="rounded-2xl w-full h-48 md:h-56 lg:h-80 object-cover col-span-1"
           />
 
           {/* Years of experience card */}
-          <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 bg-white rounded-2xl shadow-md border border-gray-200 px-8 py-6 text-center">
+          <div className="ring-2 ring-blue-600 absolute bottom-6 left-1/2 transform -translate-x-1/2 bg-white rounded-2xl shadow-md border border-gray-200 px-8 py-6 text-center">
             <h3 className="text-3xl font-bold text-[#4C63E6] mb-1">15+</h3>
             <p className="text-gray-700 font-medium">Years of Excellence</p>
           </div>

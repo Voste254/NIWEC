@@ -85,7 +85,7 @@ const Navbar = () => {
         <div className="hidden lg:flex">
           <a
             href="#consultation"
-            className="px-6 py-2 bg-gradient-to-r from-[#ff7440] to-[#a043c2] text-white font-semibold rounded-md hover:opacity-90 transition"
+            className="px-6 py-2 bg-gradient-to-r from-cyan-500 to-green-400 text-white font-semibold rounded-md hover:opacity-90 transition"
           >
             Book Your Consultation
           </a>
@@ -142,7 +142,7 @@ const Navbar = () => {
           <div className="flex flex-col space-y-2 p-4">
             <a
               href="#consultation"
-              className="px-5 py-2 bg-gradient-to-r from-[#ff7440] to-[#a043c2] text-white rounded-md text-center hover:opacity-90 transition"
+              className="px-5 py-2 bg-gradient-to-r from-cyan-500 to-green-400 text-white rounded-md text-center hover:opacity-90 transition"
             >
               Book Your Consultation
             </a>
