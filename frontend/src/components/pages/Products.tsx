@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ShoppingCart } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const products = [
   {
@@ -102,9 +103,12 @@ export default function FeaturedProducts() {
       </div>
 
       <div className="flex justify-center mt-12">
+        <Link to='/categories'>
         <button className="bg-emerald-700 text-white px-6 py-3 font-semibold flex items-center gap-3 hover:bg-emerald-800 transition">
           <ShoppingCart /> Browse All Products
         </button>
+        </Link>
+
       </div>
     </section>
   );

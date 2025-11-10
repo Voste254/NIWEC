@@ -3,6 +3,7 @@
 import { motion, useAnimation, useInView } from "framer-motion";
 import { useRef, useEffect } from "react";
 import { CalendarCheck, ClipboardList, HeartPulse } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function WellnessJourney() {
   const steps = [
@@ -104,18 +105,21 @@ export default function WellnessJourney() {
             Book your free consultation today and discover how natural wellness can transform your life.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-6">
-            <a
-              href="/"
+            <Link to='/consultation'>
+                        <button              
               className="bg-white text-sky-500 font-semibold px-8 py-3 rounded-xl shadow-md hover:scale-105 transition-transform duration-300"
             >
-              Book Free Consultation
-            </a>
-            <a
-              href="/"
+              Book Your Consultation
+            </button>
+            </Link>
+
+            <Link to='/categories'>
+            <button
               className="border border-white text-white font-semibold px-8 py-3 rounded-xl hover:bg-white hover:text-sky-600 transition-all duration-300"
             >
               Shop Products
-            </a>
+            </button>
+            </Link>
           </div>
         </motion.div>
       </div>
