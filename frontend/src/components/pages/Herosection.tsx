@@ -67,27 +67,28 @@ const HeroSection: React.FC = () => {
       </div>
 
       {/* RIGHT SIDE (Image first on mobile) */}
-      <div className="flex-1 w-full flex justify-center lg:justify-end">
-        <div className="relative max-w-md w-full rounded-3xl overflow-hidden shadow-lg">
-          <img
-            src="https://i.ibb.co/BHzZR7wQ/wellness.jpg"
-            alt="Holistic Wellness"
-            className="w-full h-full object-cover"
-          />
-          {/* Floating Card */}
-          <div className="absolute bottom-4 left-4 right-4 bg-white rounded-2xl shadow-md p-4 flex items-center gap-3">
-            <div className="bg-purple-100 p-2 rounded-full">
-              <Leaf className="text-purple-600 w-5 h-5" />
-            </div>
-            <div>
-              <p className="font-semibold text-gray-800">
-                Holistic Wellness Approach
-              </p>
-              <p className="text-gray-500 text-sm">Mind, Body & Spirit Balance</p>
-            </div>
-          </div>
-        </div>
+ <div className="flex-1 w-full flex justify-center lg:justify-end">
+  <div className="relative max-w-xl w-full rounded-xl overflow-hidden transform scale-105">
+    <img
+      src="https://i.ibb.co/BHzZR7wQ/wellness.jpg"
+      alt="Holistic Wellness"
+      className="w-full h-full object-cover"
+    />
+    {/* Floating Card */}
+    <div className="absolute bottom-5 left-5 right-5 bg-white rounded-2xl shadow-lg p-5 flex items-center gap-3">
+      <div className="bg-purple-100 p-2.5 rounded-full">
+        <Leaf className="text-purple-600 w-5 h-5" />
       </div>
+      <div>
+        <p className="font-semibold text-gray-800">
+          Holistic Wellness Approach
+        </p>
+        <p className="text-gray-500 text-sm">Mind, Body & Spirit Balance</p>
+      </div>
+    </div>
+  </div>
+</div>
+
     </section>
   );
 };
